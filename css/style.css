@@ -1,0 +1,437 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+html {
+    font-size: 10px;
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+.iphoneX {
+    background-color: white;
+    font-family: sans-serif, SF Pro Text;
+    font-feature-settings: normal;
+    margin: 0 auto;
+    width:375px;
+}
+
+
+h2 {
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight:300;
+}
+
+
+h3 {
+  color: #FFA552;
+  font-size: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+
+h4 {
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+    margin-left: 1rem;
+    margin-top: -2.7rem;
+}
+
+
+p {
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.green {
+    color: #00FFCF;
+    float: right;
+    font-size: 12px;
+    font-weight: 100;
+    margin-right: -4.6rem;
+    margin-top: -1.3rem;
+}
+
+
+.top /*heading*/{
+    background-color: #2D2D2D;
+    margin-bottom: -2rem;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+
+.subtitles/*subheading*/ {
+    background: #2d2d2d;
+    margin-top: -.1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+
+.time {
+    float: left;
+    font-size: 15px;
+    margin-left: -.1rem;
+}
+
+
+.direction {
+    margin-left: .2rem;
+}
+
+
+.signalwhite {
+    margin-left: .5rem;
+}
+
+
+.fas  {
+    float: left;
+    margin-left: -.8rem;
+    margin-top: -.8rem
+}
+
+
+.statusBarA {
+    margin-top: -.7rem;
+    width: 100%;
+}
+
+
+.signal {
+   float:left;
+   margin-top: -1rem;
+}
+
+
+.battery {
+    float: left;
+    margin-left: .4rem;
+    margin-top: -1.3rem;
+}
+
+
+.statusBarB {
+    margin-top: -1.5rem;
+    margin-left: 31rem;
+    width: 100%;
+}
+
+
+.topA  {
+    margin-top: 6rem;
+    padding: 0px 15px;
+    width: 100%;
+}
+
+
+.location {
+    color: white;
+    float: left;
+    font-size: 11px;
+    margin-top: -2rem;
+    padding-left: 1.2rem;
+}
+
+
+.nav_fav {
+    margin-right: .5rem;
+}
+
+
+.nav_fav:hover {
+    background-image: url(images/star.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.rightNav {
+    float: right;
+    margin-top: -2.5rem;
+    padding-right: .5rem;
+}
+
+
+.previous {
+    float: right;
+    padding-right: 30rem;
+    margin-top: -4.2rem;
+}
+
+
+.next {
+    float: left;
+    margin-top: -4.2rem;
+    padding-left: 29rem;
+}
+
+
+.topB {
+    margin-top: 8rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+
+.realtime {
+    width: 100%;
+}
+
+
+.arrivals {
+    float: left;
+    font-size: 15px;
+    margin-left: 3rem;
+    margin-top: -1.8rem;
+}
+
+
+.station {
+    float: left;
+    font-size: 13px;
+    margin-left: -11.2rem;
+    margin-top: -.1rem;
+}
+
+
+.twomin {
+    float:right;
+    font-size: 11px;
+    margin-right: 12.8rem;
+    margin-top: -1rem;
+}
+
+
+.walk {
+    color: #FFA552;
+    float: right;
+    margin-right: 10rem;
+    margin-top: -2.1rem;
+}
+
+
+.thinline {
+    float: right;
+    margin-right: 17rem;  
+    margin-top: .8rem;
+    width: 20%;
+}
+
+
+.sharparrow {
+    float:right;
+    margin-right: -7.5rem;
+    margin-top: -1.1rem;
+    transform: rotate(90deg);
+}
+
+
+.type {
+    margin-right: -2rem;
+}
+
+.schedule {
+    background-image: url(images/line2.png);
+    background-position: 2.6rem;
+    background-repeat: repeat-y;
+}
+
+
+.busIcon {
+    float:left;
+}
+
+
+.number {
+    font-size: 20px;
+}
+
+
+.toprow {
+    font-size: 8px;
+}
+
+
+.stop, .bottomrow {
+    font-size: 11px;
+}
+
+
+.live {
+    margin-right: .1rem;
+    float:left;
+    margin-top: .1rem;
+}
+
+
+.col4A, .col4B, .col4C, .col4D, .col4E, .col4F, .col4G {
+    float: right;
+}
+
+
+.col3A, .col3B, .col3C, .col3D, .col3E, .col3F, .col3G {
+    float: right;
+    margin-right: -2rem; 
+    margin-left: -2rem; 
+}
+
+
+.col2A, .col2B, .col2C, .col2D, .col2E, .col2F, .col2G {
+    float: right;
+    padding-right: 2rem;
+}
+
+
+.reorder {
+    float: right;
+    margin-right: 2rem;
+    margin-top: 1.3rem;
+}
+
+
+.live, .toprow {
+    margin-right: .2rem
+}
+
+
+.timesA, .timesB, .timesC, .timesD, .timesE, .timesF, .timesG {
+    margin-top: -4.5rem;
+}
+
+
+.rowA, .rowB, .rowC, .rowD, .rowE, .rowF, .rowG {
+    border-color: #eef0f0;
+    border-style: solid;
+    border-width: thin;
+    padding-bottom: 6rem;
+    padding-top: .9rem;
+}
+
+
+.rowA {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 50%;
+    background-repeat: no-repeat;
+}
+
+
+.rowA:hover {
+    background-color: #c4fe54;
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowB {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 49%;
+    background-repeat: no-repeat;
+}
+
+
+.rowB:hover {
+    background-color: #c4fe54;
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.button {
+    float:left;
+    margin-left: 1.4rem;
+    margin-top: 2.1rem;
+}
+
+
+.rowC {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 47%;
+    background-repeat: no-repeat;
+}
+
+
+.rowC:hover {
+    background-color: #c4fe54;
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowD {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 44%;
+    background-repeat: no-repeat;
+}
+
+
+.rowD:hover {
+    background-color: #c4fe54;
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowE {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 42%;
+    background-repeat: no-repeat;
+}
+
+
+
+.rowE:hover {
+    background-color: #c4fe54;
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowF {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 41%;
+    background-repeat: no-repeat;
+}
+
+
+.rowF:hover {
+    background-color: #c4fe54;
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowG {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 41%;
+    background-repeat: no-repeat;
+}
+
+
+.rowG:hover {
+    background-color: #c4fe54;
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
