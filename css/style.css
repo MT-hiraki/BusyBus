@@ -10,14 +10,14 @@ html {
 }
 
 
-ul {
+ul, li  {
     list-style-type: none;
 }
 
 
 .iphoneX {
     background-color: white;
-    font-family: sans-serif, SF Pro Text;
+    font-family: sans-serif, SF Pro Display, SF Pro Text;
     font-feature-settings: normal;
     margin: 0 auto;
     width:375px;
@@ -174,15 +174,44 @@ a {
 }
 
 
-.nav_fav {
-    margin-right: .5rem;
+.star {
+    float:left;
+    margin-right: 3rem;
 }
 
 
-.nav_fav:hover {
+.favstar {
+  float:left;
+  margin-right: 3rem;
+  cursor: pointer;
+  transition: all .2s ease;
+  margin: 0;
+}
+
+
+.favstar.active {
     background-image: url(images/star.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+
+.favstar:hover {
+    animation: favstar-hover .3s infinite alternate;
+    background-image: url(images/star.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.favstar.is_animating {
+  animation: favstar-anime .3s;
+}
+
+
+.ellipsis {
+    float:right;
+    margin-top: -2rem;
 }
 
 
@@ -264,7 +293,7 @@ a {
 .sharparrow {
     float:right;
     margin-right: -7.5rem;
-    margin-top: -1.1rem;
+    margin-top: -1.5rem;
     transform: rotate(90deg);
 }
 
@@ -334,6 +363,13 @@ a {
 }
 
 
+.reorderF {
+    float: right;
+    margin-right: 2rem;
+    margin-top: .2rem;
+}
+
+
 .live, .toprow {
     margin-right: .2rem
 }
@@ -361,116 +397,9 @@ a {
     padding-top: .8rem;
 }
 
-
-.rowA {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 50%;
-    background-repeat: no-repeat;
-}
-
-
-a.rowA:hover {
-    background-color:rgba(200, 255, 0, 60%);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowB {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 49%;
-    background-repeat: no-repeat;
-}
-
-
-.rowB:hover {
-    background-color:rgba(200, 255, 0, 60%);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.button {
-    float:left;
-    margin-left: 1.4rem;
-    margin-top: 2.1rem;
-}
-
-
-.rowC {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 47%;
-    background-repeat: no-repeat;
-}
-
-
-.rowC:hover {
-    background-color:rgba(200, 255, 0, 60%);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowD {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 44%;
-    background-repeat: no-repeat;
-}
-
-
-.rowD:hover {
-    background-color:rgba(200, 255, 0, 60%);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowE {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 42%;
-    background-repeat: no-repeat;
-}
-
-
-
-.rowE:hover {
-    background-color:rgba(200, 255, 0, 60%);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowF {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 41%;
-    background-repeat: no-repeat;
-}
-
-
-.rowF:hover {
-    background-color:rgba(200, 255, 0, 60%);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowG {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 41%;
-    background-repeat: no-repeat;
-}
-
-
-.rowG:hover {
-    background-color:rgba(200, 255, 0, 60%);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
 .bottomrowF {
-    visibility: hidden;
     font-size: 11px;
+    visibility: hidden;
 }
 
 
@@ -478,4 +407,220 @@ a.rowA:hover {
     background-color: #eaebed;
 }
 
+/*Schedule navigation*/
 
+.rowA {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .2s ease;
+    color: black;
+    margin: 0;
+}
+
+
+.rowA.active {
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowA:hover {
+    animation: favme-hover .3s infinite alternate;
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowA.is_animating {
+    animation: favme-anime .3s;
+}
+
+
+.rowB {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 50%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .2s ease;
+    color: black;
+    margin: 0;
+}
+
+
+.rowB.active {
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowB:hover {
+    animation: favme-hover .3s infinite alternate;
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowB.is_animating {
+    animation: favme-anime .3s;
+}
+
+
+.rowC {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 47%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .2s ease;
+    color: black;
+    margin: 0;
+}
+
+
+.rowC.active {
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowC:hover {
+    animation: favme-hover .3s infinite alternate;
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowC.is_animating {
+    animation: favme-anime .3s;
+}
+
+
+.rowD {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 44%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .2s ease;
+    color: black;
+    margin: 0;
+}
+
+
+.rowD.active {
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowD:hover {
+    animation: favme-hover .3s infinite alternate;
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowD.is_animating {
+    animation: favme-anime .3s;
+}
+
+
+.rowE {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 42%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .2s ease;
+    color: black;
+    margin: 0;
+}
+
+
+.rowE.active {
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowE:hover {
+    animation: favme-hover .3s infinite alternate;
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowE.is_animating {
+    animation: favme-anime .3s;
+}
+
+
+.rowF {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 41%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .2s ease;
+    color: black;
+    margin: 0;
+}
+
+
+.rowF.active {
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowF:hover {
+    animation: favme-hover .3s infinite alternate;
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowF.is_animating {
+    animation: favme-anime .3s;
+}
+
+
+.rowG {
+    background-image: url(images/bcircle.png);
+    background-position: 5.1% 41%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .2s ease;
+    color: black;
+    margin: 0;
+}
+
+
+.rowG.active {
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowG:hover {
+    animation: favme-hover .3s infinite alternate;
+    background-color:rgba(200, 255, 0, 60%);
+    background-image: url(images/targetA.png);
+    background-repeat: no-repeat;
+}
+
+
+.rowG.is_animating {
+    animation: favme-anime .3s;
+}
