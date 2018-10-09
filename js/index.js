@@ -1,4 +1,4 @@
-// Select Line Buttons - Row
+// Select Bus Line by Row
 var $;
 
 $('.rowA').click(function () {
