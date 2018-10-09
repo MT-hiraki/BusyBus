@@ -1,6 +1,6 @@
 
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -33,16 +33,18 @@ h2 {
 
 
 h3 {
-  color: #FFA552;
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+    color: #FFA552;
+    font-family: SF Pro Text;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 
 h4 {
     color: white;
+    font-family: SF Pro Text;
     font-size: 10px;
     font-weight: 100;
     margin-top: -2.7rem;
@@ -52,6 +54,7 @@ h4 {
 
 h5 {
     color: black;
+    font-family: SF Pro Text;
     font-size:10px;
     font-weight: 100;
     margin-left: 2rem;
@@ -59,6 +62,7 @@ h5 {
 
 
 p {
+    font-family: SF Pro Text;
     font-size: 1.6rem;
     font-weight: 100;
 }
@@ -79,6 +83,7 @@ a {
 .green {
     color: #00FFCF;
     float: right;
+    font-family: SF Pro Text;
     font-size: 12px;
     font-weight: 100;
     margin-right: -4.6rem;
@@ -181,11 +186,10 @@ a {
 
 
 .favstar {
-  float:left;
-  margin-right: 3rem;
-  cursor: pointer;
-  transition: all .2s ease;
-  margin: 0;
+    cursor: pointer;
+    float:left;
+    margin: 0;
+    transition: all .2s ease;
 }
 
 
@@ -205,7 +209,7 @@ a {
 
 
 .favstar.is_animating {
-  animation: favstar-anime .3s;
+    animation: favstar-anime .3s;
 }
 
 
@@ -302,6 +306,7 @@ a {
     margin-right: -2rem;
 }
 
+
 .schedule {
     background-image: url(images/line2.png);
     background-position: 2.4rem;
@@ -336,6 +341,7 @@ a {
     float:left;
     margin-top: .1rem;
 }
+
 
 
 .col4A, .col4B, .col4C, .col4D, .col4E, .col4F, .col4G {
@@ -392,6 +398,7 @@ a {
     width: 100%;
 }
 
+
 .rowF {
     padding-bottom: 5rem;
     padding-top: .8rem;
@@ -403,11 +410,25 @@ a {
 }
 
 
+.col4G-3 {
+    float: right;
+    margin-right: -1rem;
+}
+
+
+.col3G-3 {
+    float: right;
+    margin-right: -1rem;
+}
+
+
 .background {
     background-color: #eaebed;
 }
 
+
 /*Schedule navigation*/
+
 
 .rowA {
     background-image: url(images/bcircle.png);
