@@ -17,15 +17,15 @@ ul, li  {
 
 .iphoneX {
     background-color: white;
-    font-family: sans-serif, SF Pro Display, SF Pro Text;
-    font-feature-settings: normal;
+    font-family: sans-serif, "SF Pro Display", "SF Pro Text";
+    font-style: normal;
     margin: 0 auto;
     width:375px;
 }
 
 
 h2 {
-    font-family: SF Pro Display;
+    font-family: "SF Pro Display";
     font-size: 20px;
     font-weight:300;
     letter-spacing: 1.7px;
@@ -34,7 +34,7 @@ h2 {
 
 h3 {
     color: #FFA552;
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text";
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -44,7 +44,7 @@ h3 {
 
 h4 {
     color: white;
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text";
     font-size: 10px;
     font-weight: 100;
     margin-top: -2.7rem;
@@ -54,7 +54,7 @@ h4 {
 
 h5 {
     color: black;
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text";
     font-size:10px;
     font-weight: 100;
     margin-left: 2rem;
@@ -62,7 +62,7 @@ h5 {
 
 
 p {
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text";
     font-size: 1.6rem;
     font-weight: 100;
 }
@@ -83,7 +83,7 @@ a {
 .green {
     color: #00FFCF;
     float: right;
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text";
     font-size: 12px;
     font-weight: 100;
     margin-right: -4.6rem;
@@ -442,7 +442,7 @@ a {
 
 
 .rowA.active {
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -450,7 +450,7 @@ a {
 
 .rowA:hover {
     animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -473,7 +473,7 @@ a {
 
 
 .rowB.active {
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -481,7 +481,7 @@ a {
 
 .rowB:hover {
     animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.05);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -504,7 +504,7 @@ a {
 
 
 .rowC.active {
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -512,7 +512,7 @@ a {
 
 .rowC:hover {
     animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -535,7 +535,7 @@ a {
 
 
 .rowD.active {
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -543,7 +543,7 @@ a {
 
 .rowD:hover {
     animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -566,7 +566,7 @@ a {
 
 
 .rowE.active {
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -574,7 +574,7 @@ a {
 
 .rowE:hover {
     animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -597,7 +597,7 @@ a {
 
 
 .rowF.active {
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -605,7 +605,7 @@ a {
 
 .rowF:hover {
     animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -628,7 +628,7 @@ a {
 
 
 .rowG.active {
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
@@ -636,7 +636,7 @@ a {
 
 .rowG:hover {
     animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 60%);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
