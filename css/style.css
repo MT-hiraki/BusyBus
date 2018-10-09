@@ -481,7 +481,7 @@ a {
 
 .rowB:hover {
     animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 0.05);
+    background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
