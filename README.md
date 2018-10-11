@@ -1,13 +1,6 @@
 # Busybus
 #### Frontend Challenge
 
-<ul>
-  
-<li>1 - correct desktop view
-![screen shot 2018-10-08 at 8 06 59 pm](https://user-images.githubusercontent.com/36306207/46645798-7b7b7e80-cb3b-11e8-94b5-5105a7c55eb6.png)</li>
-
-<li>2 - incorrect mobile view
-![img_2866](https://user-images.githubusercontent.com/36306207/46834479-59167a80-cd60-11e8-9806-ee957a0f012e.PNG)</li>
 
 <br>
 
