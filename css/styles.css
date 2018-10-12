@@ -18,7 +18,7 @@ ul, li  {
 .iphoneX {
     background-color: white;
     color: white;
-    font: system-ui, -apple-system, "BlinkMacSystemFont", "San Francisco", "Helvetica Neue", "Lucida Grande", "Segoe UI", "Tahoma", "Microsoft Sans Serif", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
+    font-family: -apple-system, "BlinkMacSystemFont", "San Francisco", "Helvetica Neue", sans-serif;
     font-style: normal;
     margin: 0 auto;
     width:375px;
@@ -671,7 +671,7 @@ ul, li  {
 .iphoneX {
     background-color: white;
     color: white;
-    font: system-ui, -apple-system, "BlinkMacSystemFont", "San Francisco", "Helvetica Neue", "Lucida Grande", "Segoe UI", "Tahoma", "Microsoft Sans Serif", "Roboto", "Droid Sans", "Ubuntu", sans-serif;
+    font-family: -apple-system, "BlinkMacSystemFont", "San Francisco", "Helvetica Neue", sans-serif;
     font-style: normal;
     margin: 0 auto;
     width:375px;
