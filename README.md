@@ -2,7 +2,7 @@
 #### Frontend Challenge
 
 
-![screen shot 2018-10-08 at 8 06 59 pm](https://user-images.githubusercontent.com/36306207/46645798-7b7b7e80-cb3b-11e8-94b5-5105a7c55eb6.png)
+![mt-hiraki github io_busybus_ iphone x](https://user-images.githubusercontent.com/36306207/46852394-b0900700-cdaf-11e8-888e-3cb6f70cca88.png)
 
 ###### Busybus Summary
 ###### Summer Torres
