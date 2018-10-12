@@ -1,8 +1,7 @@
 # Busybus
 #### Frontend Challenge
 
-
-![mt-hiraki github io_busybus_ iphone x](https://user-images.githubusercontent.com/36306207/46852394-b0900700-cdaf-11e8-888e-3cb6f70cca88.png)
+![mt-hiraki github io_busybus_ iphone x](https://user-images.githubusercontent.com/36306207/46852457-f1881b80-cdaf-11e8-8b5f-2090b7ff4f89.png)
 
 ###### Busybus Summary
 ###### Summer Torres
