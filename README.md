@@ -4,8 +4,6 @@
 
 ![screen shot 2018-10-08 at 8 06 59 pm](https://user-images.githubusercontent.com/36306207/46645798-7b7b7e80-cb3b-11e8-94b5-5105a7c55eb6.png)
 
-![img_2866](https://user-images.githubusercontent.com/36306207/46835038-e60e0380-cd61-11e8-99ab-d5a5961a8024.PNG)
-
 ###### Busybus Summary
 ###### Summer Torres
 
