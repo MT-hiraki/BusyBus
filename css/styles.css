@@ -4,6 +4,28 @@
 }
 
 
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SFProDisplay-Regular.eot');
+    src: url('fonts/SFProDisplay-Regular.otf');
+    src: url('fonts/SFProDisplay-Regular.svg');
+    src: url('fonts/SFProDisplay-Regular.ttf');
+    src: url('fonts/SFProDisplay-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('fonts/SFProText-Regular.eot');
+    src: url('fonts/SFProText-Regular.otf');
+    src: url('fonts/SFProText-Regular.svg');
+    src: url('fonts/SFProText-Regular.ttf');
+    src: url('fonts/SFProText-Regular.woff');
+    font-weight: normal;
+    font-style: normal;
+}
 html {
     background-color: darkgray;
     font-size: 10px;
@@ -260,11 +282,6 @@ a {
     font-size: 15px;
     margin-left: 2rem;
     margin-top: -1.8rem;
-}
-
-
-.subtitles {
-    width: 375px;
 }
 
 
@@ -918,11 +935,6 @@ a {
     font-size: 15px;
     margin-left: 2rem;
     margin-top: -1.8rem;
-}
-
-
-.subtitles {
-    width: 375px;
 }
 
 
