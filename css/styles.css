@@ -72,7 +72,7 @@ h4.station {
     font-family: -apple-system, 'SF Pro Text';
     font-size: 13px;
     font-weight: 100;
-    margin-left: -12.5rem;
+    margin-left: -12.4rem;
     margin-top: -.1rem;
     letter-spacing: 1px;
 }
@@ -110,6 +110,11 @@ a {
 }
 
 
+li.stop {
+        font-weight: 600;
+}
+
+
 li.toprow {
     font-style: oblique;
     font-size: 9.5px;
@@ -119,6 +124,7 @@ li.toprow {
 
 li.bottomrow {
     font-size: 11px;
+    font-weight: bold;
 }
 
 
@@ -144,6 +150,7 @@ li.bottomrow {
     padding-bottom: 3rem;
     width: 375px;;
 }
+
 
 .fixed {
     position: fixed;
@@ -362,8 +369,8 @@ li.bottomrow {
 
 .col3A, .col3B, .col3C, .col3D, .col3E, .col3F, .col3G {
     float: right;
-    margin-right: -1.8rem; 
-    margin-left: -1.8rem; 
+    margin-right: -2.5rem; 
+    margin-left: -2.5em; 
 }
 
 
@@ -372,6 +379,24 @@ li.bottomrow {
     padding-right: 2.5rem;
 }
 
+
+.col2G-1 {
+    float: right;
+    margin-left: -1rem;
+    padding-right: 2.5rem;
+}
+
+
+.col3G-3 {
+    margin-left: -2rem;
+    padding-left: 1rem;
+    
+}
+
+
+.col4G-3 {
+    
+}
 
 .reorder {
     float: right;
@@ -393,25 +418,24 @@ li.bottomrow {
 
 
 .timesA, .timesB, .timesC, .timesD, .timesE, .timesF, .timesG {
-    margin-top: -4.5rem;
+    margin-top: -5.5rem;
 }
 
 
 .rowA, .rowB, .rowC, .rowD, .rowE, .rowF, .rowG {
-    border-bottom-color: #eef0f0;
+    border-bottom-color: #f1f3f3;
     border-bottom-style: solid;
     border-bottom-width: thin;
-    border-top-color: #eef0f0;
+    border-top-color: #f1f3f3;
     border-top-style: solid;
     border-top-width: thin;
     padding-bottom: 6rem;
-    padding-top: .9rem;
+    padding-top: 1rem;
     width: 100%;
 }
 
 
 .rowF {
-    padding-bottom: 5rem;
     padding-top: .8rem;
 }
 
