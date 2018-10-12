@@ -5,27 +5,24 @@
 
 
 @font-face {
-    font-family: 'SF Pro Display';
-    src: url('fonts/SFProDisplay-Regular.eot');
-    src: url('fonts/SFProDisplay-Regular.otf');
-    src: url('fonts/SFProDisplay-Regular.svg');
-    src: url('fonts/SFProDisplay-Regular.ttf');
-    src: url('fonts/SFProDisplay-Regular.woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'SFProText-Regular';
+  src: url('SFProText-Regular.eot?#iefix') format('embedded-opentype'),  url('SFProText-Regular.otf')  format('opentype'),
+	     url('SFProText-Regular.woff') format('woff'), url('SFProText-Regular.ttf')  format('truetype'), url('SFProText-Regular.svg#SFProText-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 
 @font-face {
-    font-family: 'SF Pro Text';
-    src: url('fonts/SFProText-Regular.eot');
-    src: url('fonts/SFProText-Regular.otf');
-    src: url('fonts/SFProText-Regular.svg');
-    src: url('fonts/SFProText-Regular.ttf');
-    src: url('fonts/SFProText-Regular.woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'SFProText-Regular';
+  src: url('SFProText-Regular.eot?#iefix') format('embedded-opentype'),  url('SFProText-Regular.otf')  format('opentype'),
+	     url('SFProText-Regular.woff') format('woff'), url('SFProText-Regular.ttf')  format('truetype'), url('SFProText-Regular.svg#SFProText-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
 html {
     background-color: darkgray;
     font-size: 10px;
@@ -48,7 +45,7 @@ ul, li  {
 
 
 h2 {
-    font-family: "SF Pro Display";
+    font-family:'SF Pro Display';
     font-size: 20px;
     font-weight:300;
     letter-spacing: 1.7px;
@@ -57,7 +54,7 @@ h2 {
 
 h3 {
     color: #FFA552;
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -67,7 +64,7 @@ h3 {
 
 h4 {
     color: white;
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size: 10px;
     font-weight: 100;
     margin-top: -2.7rem;
@@ -77,7 +74,7 @@ h4 {
 
 h5 {
     color: black;
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size:10px;
     font-weight: 100;
     margin-left: 2rem;
@@ -85,7 +82,7 @@ h5 {
 
 
 p {
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size: 1.6rem;
     font-weight: 100;
 }
@@ -106,7 +103,7 @@ a {
 .green {
     color: #00FFCF;
     float: right;
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size: 12px;
     font-weight: 100;
     margin-right: -4.6rem;
@@ -701,7 +698,7 @@ ul, li  {
 
 
 h2 {
-    font-family: "SF Pro Display";
+    font-family: 'SF Pro Display';
     font-size: 20px;
     font-weight:300;
     letter-spacing: 1.7px;
@@ -710,7 +707,7 @@ h2 {
 
 h3 {
     color: #FFA552;
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -720,7 +717,7 @@ h3 {
 
 h4 {
     color: white;
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size: 10px;
     font-weight: 100;
     margin-top: -2.7rem;
@@ -730,7 +727,7 @@ h4 {
 
 h5 {
     color: black;
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size:10px;
     font-weight: 100;
     margin-left: 2rem;
@@ -738,7 +735,7 @@ h5 {
 
 
 p {
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size: 1.6rem;
     font-weight: 100;
 }
@@ -759,7 +756,7 @@ a {
 .green {
     color: #00FFCF;
     float: right;
-    font-family: "SF Pro Text";
+    font-family: 'SF Pro Text';
     font-size: 12px;
     font-weight: 100;
     margin-right: -4.6rem;
