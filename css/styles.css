@@ -18,7 +18,8 @@ ul, li  {
 body.iphoneX {
     background-color: white;
     color: white;
-    font-family: -apple-system, 'SF Pro Display', 'BlinkMacSystemFont';
+    font-family: -apple-system, 'SF Pro Display', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     margin: 0 auto;
     width:375px;
@@ -26,12 +27,14 @@ body.iphoneX {
 
 
 li.time {
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 
 h2.mainheading {
-    font-family: -apple-system, 'SF Pro Display', 'BlinkMacSystemFont';
+    font-family: -apple-system, 'SF Pro Display', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight:300;
     letter-spacing: 1.7px;
@@ -40,14 +43,17 @@ h2.mainheading {
 
 
 div.schedule {
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 
 h3.arrivals {
     color: #FFA552;
     float: left;
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -59,7 +65,8 @@ h3.arrivals {
 
 h4.two {
     color: white;
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 10px;
     font-weight: 100;
     margin-top: -2.7rem;
@@ -70,18 +77,21 @@ h4.two {
 h4.station {
     color: white;
     float: left;
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 13px;
     font-weight: 100;
-    margin-left: -12.4rem;
+    margin-left: -12.5rem;
     margin-top: -.1rem;
     letter-spacing: 1px;
 }
 
+
 span.green {
     color: #00FFCF;
     float: right;
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     font-weight: 100;
     margin-right: -4.6rem;
@@ -91,15 +101,17 @@ span.green {
 
 h5.direction {
     color: black;
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
-    font-size:10px;
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size:12px;
     font-weight:bold;
     margin-left: 2rem;
 }
 
 
 p.location {
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.2rem;
     font-weight: 100;
 }
@@ -112,15 +124,16 @@ a {
 
 
 li.stop {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
 }
 
 
 li.toprow {
     font-style: oblique;
-    font-size: 9.5px;
+    font-size: 10px;
     margin-bottom: 2.5px;
+    text-align: center;
 }
 
 
