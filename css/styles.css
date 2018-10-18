@@ -395,7 +395,8 @@ li.bottomrow {
 
 
 .times {
-    margin-top: -6.5rem;
+    margin-top: -5.5rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -406,7 +407,7 @@ li.bottomrow {
     border-top-color: #f1f3f3;
     border-top-style: solid;
     border-top-width: thin;
-    padding-bottom: 8rem;
+    padding-bottom: 6rem;
     padding-top: 1rem;
     width: 100%;
 }
