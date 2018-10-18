@@ -18,7 +18,7 @@ ul, li  {
 body.iphoneX {
     background-color: white;
     color: white;
-    font-family: -apple-system;
+    font-family: -apple-system, 'SF Pro Display', 'BlinkMacSystemFont';
     font-style: normal;
     margin: 0 auto;
     width:375px;
@@ -26,27 +26,28 @@ body.iphoneX {
 
 
 li.time {
-    font-family: -apple-system, 'SF Pro Text';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
 }
 
 
 h2.mainheading {
-    font-family: -apple-system, 'SF Pro Display';
+    font-family: -apple-system, 'SF Pro Display', 'BlinkMacSystemFont';
     font-size: 20px;
     font-weight:300;
     letter-spacing: 1.7px;
+    margin-left: 3.4rem;
 }
 
 
 div.schedule {
-    font-family: -apple-system, 'SF Pro Text';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
 }
 
 
 h3.arrivals {
     color: #FFA552;
     float: left;
-    font-family: -apple-system, 'SF Pro Text';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 1px;
@@ -58,7 +59,7 @@ h3.arrivals {
 
 h4.two {
     color: white;
-    font-family: -apple-system, 'SF Pro Text';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
     font-size: 10px;
     font-weight: 100;
     margin-top: -2.7rem;
@@ -69,7 +70,7 @@ h4.two {
 h4.station {
     color: white;
     float: left;
-    font-family: -apple-system, 'SF Pro Text';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
     font-size: 13px;
     font-weight: 100;
     margin-left: -12.4rem;
@@ -80,7 +81,7 @@ h4.station {
 span.green {
     color: #00FFCF;
     float: right;
-    font-family: -apple-system, 'SF Pro Text';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
     font-size: 12px;
     font-weight: 100;
     margin-right: -4.6rem;
@@ -90,7 +91,7 @@ span.green {
 
 h5.direction {
     color: black;
-    font-family: -apple-system, 'SF Pro Text';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
     font-size:10px;
     font-weight:bold;
     margin-left: 2rem;
@@ -98,7 +99,7 @@ h5.direction {
 
 
 p.location {
-    font-family: -apple-system, 'SF Pro Text';
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont';
     font-size: 1.2rem;
     font-weight: 100;
 }
@@ -363,99 +364,62 @@ li.bottomrow {
 }
 
 
-
-.col4A, .col4B, .col4C, .col4D, .col4E, .col4F, .col4G {
+.col4A {
     float: right;
 }
 
 
-.col3A, .col3B, .col3C, .col3D, .col3E, .col3F, .col3G {
+.col3A {
     float: right;
     margin-right: -2.5rem; 
     margin-left: -2.5em; 
 }
 
 
-.col2A, .col2B, .col2C, .col2D, .col2E, .col2F, .col2G {
+.col2A {
     float: right;
     padding-right: 2.5rem;
 }
 
-
-.col2G-1 {
-    float: right;
-    margin-left: -1rem;
-    padding-right: 2.5rem;
-}
-
-
-.col3G-3 {
-    margin-left: -2rem;
-    padding-left: 1rem;
-    
-}
-
-
-.col4G-3 {
-    
-}
 
 .reorder {
     float: right;
     margin-right: 2rem;
-    margin-top: 1.3rem;
-}
-
-
-.reorderF {
-    float: right;
-    margin-right: 2rem;
-    margin-top: .2rem;
+    margin-top: 1rem;
 }
 
 
 .live {
-    margin-right: .2rem
+    margin-right: .2rem;
 }
 
 
-.timesA, .timesB, .timesC, .timesD, .timesE, .timesF, .timesG {
-    margin-top: -5.5rem;
+.times {
+    margin-top: -6.5rem;
 }
 
 
-.rowA, .rowB, .rowC, .rowD, .rowE, .rowF, .rowG {
+.row {
     border-bottom-color: #f1f3f3;
     border-bottom-style: solid;
     border-bottom-width: thin;
     border-top-color: #f1f3f3;
     border-top-style: solid;
     border-top-width: thin;
-    padding-bottom: 6rem;
+    padding-bottom: 8rem;
     padding-top: 1rem;
     width: 100%;
 }
 
 
-.rowF {
-    padding-top: .8rem;
+.toprowF {
+    margin-top: 2rem;
 }
+
 
 .bottomrowF {
     font-size: 11px;
     visibility: hidden;
-}
-
-
-.col4G-3 {
-    float: right;
-    margin-right: -1rem;
-}
-
-
-.col3G-3 {
-    float: right;
-    margin-right: -1rem;
 }
 
 
@@ -467,7 +431,7 @@ li.bottomrow {
 /*Schedule navigation select*/
 
 
-.rowA {
+.row {
     background-image: url(images/bcircle.png);
     background-position: 5.1% 50%;
     background-repeat: no-repeat;
@@ -478,14 +442,14 @@ li.bottomrow {
 }
 
 
-.rowA.active {
+.row.active {
     background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
     background-repeat: no-repeat;
 }
 
 
-.rowA:hover {
+.row:hover {
     animation: favme-hover .3s infinite alternate;
     background-color:rgba(200, 255, 0, 0.6);
     background-image: url(images/targetA.png);
@@ -493,195 +457,8 @@ li.bottomrow {
 }
 
 
-.rowA.is_animating {
+.row.is_animating {
     animation: favme-anime .3s;
 }
-
-
-.rowB {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 50%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transition: all .2s ease;
-    color: black;
-    margin: 0;
-}
-
-
-.rowB.active {
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowB:hover {
-    animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowB.is_animating {
-    animation: favme-anime .3s;
-}
-
-
-.rowC {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 47%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transition: all .2s ease;
-    color: black;
-    margin: 0;
-}
-
-
-.rowC.active {
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowC:hover {
-    animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowC.is_animating {
-    animation: favme-anime .3s;
-}
-
-
-.rowD {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 44%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transition: all .2s ease;
-    color: black;
-    margin: 0;
-}
-
-
-.rowD.active {
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowD:hover {
-    animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowD.is_animating {
-    animation: favme-anime .3s;
-}
-
-
-.rowE {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 42%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transition: all .2s ease;
-    color: black;
-    margin: 0;
-}
-
-
-.rowE.active {
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowE:hover {
-    animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowE.is_animating {
-    animation: favme-anime .3s;
-}
-
-
-.rowF {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 41%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transition: all .2s ease;
-    color: black;
-    margin: 0;
-}
-
-
-.rowF.active {
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowF:hover {
-    animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowF.is_animating {
-    animation: favme-anime .3s;
-}
-
-
-.rowG {
-    background-image: url(images/bcircle.png);
-    background-position: 5.1% 41%;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transition: all .2s ease;
-    color: black;
-    margin: 0;
-}
-
-
-.rowG.active {
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowG:hover {
-    animation: favme-hover .3s infinite alternate;
-    background-color:rgba(200, 255, 0, 0.6);
-    background-image: url(images/targetA.png);
-    background-repeat: no-repeat;
-}
-
-
-.rowG.is_animating {
-    animation: favme-anime .3s;
-}
-
 
 
