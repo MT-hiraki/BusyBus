@@ -131,9 +131,9 @@ li.stop {
 
 li.toprow {
     font-style: oblique;
-    font-size: 10px;
-    margin-bottom: 2.5px;
-    text-align: center;
+    font-size: 9.5px;
+    margin-bottom: 4px;
+text-align: center;
 }
 
 
@@ -345,6 +345,7 @@ li.bottomrow {
     transform: rotate(90deg);
 }
 
+/*middle icons*/
 
 .type {
     margin-right: -2rem;
@@ -384,8 +385,8 @@ li.bottomrow {
 
 .col3A {
     float: right;
-    margin-right: -2.5rem; 
-    margin-left: -2.5em; 
+    margin-right: -2rem; 
+    margin-left: -2em; 
 }
 
 
@@ -403,7 +404,7 @@ li.bottomrow {
 
 
 .live {
-    margin-right: .2rem;
+    padding-left: 1rem;
 }
 
 
