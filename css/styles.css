@@ -133,7 +133,6 @@ li.toprow {
     font-style: oblique;
     font-size: 9.5px;
     margin-bottom: 4px;
-text-align: center;
 }
 
 
@@ -153,8 +152,7 @@ li.bottomrow {
     background-color: #2D2D2D;
     margin-bottom: -2rem;
     padding-top: 1rem;
-    width: 375px;;
-    
+    width: 375px;
 }
 
 
@@ -372,9 +370,10 @@ li.bottomrow {
 
 
 .live {
-    margin-right: .1rem;
     float:left;
+    margin-left: -.5rem;
     margin-top: .1rem;
+    padding-right: .3rem;
 }
 
 
@@ -428,6 +427,7 @@ li.bottomrow {
 
 
 .toprowF {
+    margin-left: 1rem;
     margin-top: 2rem;
 }
 
