@@ -48,7 +48,6 @@ div.schedule {
 }
 
 
-
 h3.arrivals {
     color: #FFA552;
     float: left;
@@ -69,8 +68,8 @@ h4.two {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 10px;
     font-weight: 100;
-    margin-top: -2.7rem;
     letter-spacing: 1px;
+    margin-top: -2.7rem;
 }
 
 
@@ -87,25 +86,14 @@ h4.station {
 }
 
 
-span.green {
-    color: #00FFCF;
-    float: right;
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
-    font-weight: 100;
-    margin-right: -4.6rem;
-    margin-top: -1.3rem;
-}
-
-
 h5.direction {
+    background-color: #eaebed;
     color: black;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size:12px;
     font-weight:bold;
-    margin-left: 2rem;
+    padding-left: 2.5rem;
 }
 
 
@@ -117,9 +105,54 @@ p.location {
 }
 
 
-a {
-    color: black;
-    text-decoration: none;
+ul.type {
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 100;  
+}
+
+
+
+img.thinline {
+    float: left;
+    margin-left: 1rem;
+    margin-top: -2rem;
+    width: 24%;
+}
+
+
+img.updates {
+    visibility: hidden;
+}
+
+
+li.two {
+    float:right;
+    margin-right: 10.5rem;
+    margin-top: -2.7rem;
+}
+
+
+img.walk {
+    float: left;
+    margin-left: 13rem;
+    margin-top: -11px;
+}
+
+
+li.green {
+    color: #00FFCF;
+    float: right; 
+    margin-right: 5rem;
+    margin-top: -2.7rem;
+}
+
+
+img.sharparrow {
+    float: right;
+    margin-right: 2rem;
+    margin-top: .1rem;
 }
 
 
@@ -160,7 +193,7 @@ li.bottomrow {
     background: #2d2d2d;
     margin-top: -.1rem;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     width: 375px;;
 }
 
@@ -184,13 +217,15 @@ li.bottomrow {
 }
 
 
-.signalwhite {
+img.signalwhite {
+    float:left;
     margin-left: .8rem;
     margin-right: .3rem;
+    margin-top: -1rem;
 }
 
 
-.fas  {
+img.fas  {
     float: left;
     margin-left: -.8rem;
     margin-top: -.8rem
@@ -202,13 +237,7 @@ li.bottomrow {
 }
 
 
-.signal {
-   float:left;
-   margin-top: -1rem;
-}
-
-
-.battery {
+img.battery {
     float: left;
     margin-left: .4rem;
     margin-top: -1.3rem;
@@ -312,27 +341,11 @@ li.bottomrow {
 }
 
 
-.twomin {
-    float:right;
-    font-size: 11px;
-    margin-right: 12.8rem;
-    margin-top: -.7rem;
-}
-
-
 .walk {
     color: #FFA552;
     float: right;
-    margin-right: 10rem;
+    margin-right: -12rem;
     margin-top: -2.1rem;
-}
-
-
-.thinline {
-    float: right;
-    margin-right: 17rem;  
-    margin-top: .7rem;
-    width: 20%;
 }
 
 
@@ -341,12 +354,6 @@ li.bottomrow {
     margin-right: -7.5rem;
     margin-top: -1.5rem;
     transform: rotate(90deg);
-}
-
-/*middle icons*/
-
-.type {
-    margin-right: -2rem;
 }
 
 
@@ -377,21 +384,10 @@ li.bottomrow {
 }
 
 
-.col4A {
+.column {
     float: right;
-}
-
-
-.col3A {
-    float: right;
-    margin-right: -2rem; 
-    margin-left: -2em; 
-}
-
-
-.col2A {
-    float: right;
-    padding-right: 2.5rem;
+    margin-left: -2.6em; 
+    padding-right: 1.3rem;
 }
 
 
@@ -433,18 +429,10 @@ li.bottomrow {
 
 
 .bottomrowF {
-    font-size: 11px;
     visibility: hidden;
 }
 
-
-.background {
-    background-color: #eaebed;
-}
-
-
 /*Schedule navigation select*/
-
 
 .row {
     background-image: url(images/bcircle.png);
