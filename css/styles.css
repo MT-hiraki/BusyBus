@@ -62,17 +62,6 @@ h3.arrivals {
 }
 
 
-h4.two {
-    color: white;
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-size: 10px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    margin-top: -2.7rem;
-}
-
-
 h4.station {
     color: white;
     float: left;
@@ -92,7 +81,7 @@ h5.direction {
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size:12px;
-    font-weight:bold;
+    font-weight:500;
     padding-left: 2.5rem;
 }
 
@@ -116,9 +105,9 @@ ul.type {
 
 img.thinline {
     float: left;
-    margin-left: 1rem;
-    margin-top: -2rem;
-    width: 24%;
+    margin-left: -3.3rem;
+    margin-top: .7rem;
+    width: 22%;
 }
 
 
@@ -136,7 +125,7 @@ li.two {
 
 img.walk {
     float: left;
-    margin-left: 13rem;
+    margin-left: 13.1rem;
     margin-top: -11px;
 }
 
@@ -171,7 +160,7 @@ li.toprow {
 
 li.bottomrow {
     font-size: 11px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 
@@ -395,7 +384,7 @@ img.battery {
 .reorder {
     float: right;
     margin-right: 2rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 
