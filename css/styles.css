@@ -48,7 +48,7 @@ div.schedule {
 }
 
 
-li.arrivals {
+h3.arrivals {
     color: #FFA552;
     float: left;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -56,13 +56,13 @@ li.arrivals {
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 1px;
-    margin-left: -2rem;
+    margin-left: 2.5rem;
     margin-top: -1rem;
     text-transform: uppercase;
 }
 
 
-li.station {
+h3.station {
     color: white;
     float: left;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -97,7 +97,7 @@ p.location {
 }
 
 
-ul.subtitles/*subheading*/ {
+div.subtitles/*subheading*/ {
     background: #2d2d2d;
     margin-top: -.1rem;
     padding-top: 3rem;
@@ -108,56 +108,53 @@ ul.subtitles/*subheading*/ {
 
 img.thinline {
     float: left;
-    margin-left: 11.5rem;
-    margin-top: -3.7rem;
-    
-
+    margin-top: 1.5rem;
 }
 
 
 img.updates {
     float: left;
-    margin-left: 17rem;
-    margin-top: -4.5rem;
+    margin-left: 1rem;
+    margin-top: .9rem;
+    padding-right: .2rem;
 }
 
 
-li.two {
+h4.two {
     float: left;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 13px;
-    font-weight: 100;  
-    margin-left: 18rem;
-    margin-top: -4.7rem;
-
+    font-weight: 100; 
+    margin-left: .4rem;
+    margin-top: .8rem;
 }
 
 
-img.walk {
+.walk {
     float: left;
-    margin-left: 22.5rem;
-    margin-top: -5.7rem;
+    margin-left: 1.5rem;
+    margin-top: -.5rem;
 }
 
 
-li.green {
+h4.green {
     color: #00FFCF;
     float: left; 
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     font-style: oblique;
-    font-weight: 100;  
-    margin-left: 26rem;
-    margin-top: -5rem;
+    font-weight: 100;
+    margin-left: 1.5rem;
+    margin-top: .5rem;
 }
 
 
 img.sharparrow {
-    float: left;
-    margin-left: 29rem;
-    margin-top: -4.3rem;
+    float: right;
+    margin-right: 1.5rem;
+    margin-top: .9rem;
     transform: rotate(90deg);
 }
 
