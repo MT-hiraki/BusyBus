@@ -48,7 +48,7 @@ div.schedule {
 }
 
 
-h3.arrivals {
+li.arrivals {
     color: #FFA552;
     float: left;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -56,20 +56,20 @@ h3.arrivals {
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 1px;
-    margin-left: 2rem;
+    margin-left: -2rem;
     margin-top: -1rem;
     text-transform: uppercase;
 }
 
 
-h3.station {
+li.station {
     color: white;
     float: left;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 13px;
     font-weight: 100;
-    margin-left: -12.3rem;
+    margin-left: -12.5rem;
     margin-top: .8rem;
     letter-spacing: 1px;
 }
@@ -82,6 +82,7 @@ h5.direction {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size:12px;
     font-weight:500;
+    letter-spacing: 1px;
     padding-left: 2.5rem;
 }
 
@@ -91,10 +92,12 @@ p.location {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.2rem;
     font-weight: 100;
+    letter-spacing: 1px;
+    margin-left: -.5rem;
 }
 
 
-.subtitles/*subheading*/ {
+ul.subtitles/*subheading*/ {
     background: #2d2d2d;
     margin-top: -.1rem;
     padding-top: 3rem;
