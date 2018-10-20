@@ -22,6 +22,8 @@ body.iphoneX {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     margin: 0 auto;
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
     width:375px;
 }
 
@@ -58,6 +60,7 @@ h3.arrivals {
     letter-spacing: 1px;
     margin-left: -11.7rem;
     margin-top: -1rem;
+    text-align: left;
     text-transform: uppercase;
 }
 
@@ -88,7 +91,7 @@ h5.direction {
 }
 
 
-p.location {
+p.loca tion {
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.1rem;
