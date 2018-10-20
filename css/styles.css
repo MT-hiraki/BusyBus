@@ -62,7 +62,7 @@ h3.arrivals {
 }
 
 
-h4.station {
+h3.station {
     color: white;
     float: left;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -156,7 +156,6 @@ img.sharparrow {
     margin-left: 29rem;
     margin-top: -4.3rem;
     transform: rotate(90deg);
-}
 }
 
 
