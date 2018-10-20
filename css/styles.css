@@ -62,7 +62,7 @@ h3.arrivals {
 }
 
 
-h3.station {
+p.station {
     color: white;
     float: left;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -70,10 +70,9 @@ h3.station {
     font-size: 13px;
     font-weight: 100;
     letter-spacing: 1px;
-    margin-left: -12.5rem;
+    margin-left: -12.6rem;
     margin-top: .8rem;
     overflow-x:auto;
-
 }
 
 
@@ -110,6 +109,7 @@ div.subtitles/*subheading*/ {
 
 img.thinline {
     float: left;
+    margin-left: .5rem;
     margin-top: 1.5rem;
 }
 
@@ -122,25 +122,25 @@ img.updates {
 }
 
 
-h4.two {
+p.two {
     float: left;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 13px;
     font-weight: 100; 
-    margin-left: .4rem;
+    margin-left: .3rem;
     margin-top: .8rem;
 }
 
 
 .walk {
     float: left;
-    margin-left: 1.5rem;
+    margin-left: 1.1rem;
     margin-top: -.5rem;
 }
 
 
-h4.green {
+p.green {
     color: #00FFCF;
     float: left; 
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -148,14 +148,14 @@ h4.green {
     font-size: 15px;
     font-style: oblique;
     font-weight: 100;
-    margin-left: 1.5rem;
+    margin-left: 1.2rem;
     margin-top: .5rem;
 }
 
 
 img.sharparrow {
     float: right;
-    margin-right: 1.5rem;
+    margin-right: 2rem;
     margin-top: .9rem;
     transform: rotate(90deg);
 }
