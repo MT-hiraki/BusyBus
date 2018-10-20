@@ -57,7 +57,7 @@ h3.arrivals {
     font-weight: 100;
     letter-spacing: 1px;
     margin-left: 2rem;
-    margin-top: -1.8rem;
+    margin-top: -1rem;
     text-transform: uppercase;
 }
 
@@ -70,7 +70,7 @@ h4.station {
     font-size: 13px;
     font-weight: 100;
     margin-left: -12.5rem;
-    margin-top: -.1rem;
+    margin-top: .8rem;
     letter-spacing: 1px;
 }
 
@@ -94,54 +94,69 @@ p.location {
 }
 
 
-ul.type {
-    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-size: 13px;
-    font-weight: 100;  
+.subtitles/*subheading*/ {
+    background: #2d2d2d;
+    margin-top: -.1rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    width: 375px;;
 }
-
 
 
 img.thinline {
     float: left;
-    margin-left: -3.3rem;
-    margin-top: .7rem;
-    width: 22%;
+    margin-left: 11.5rem;
+    margin-top: -3.7rem;
+    
+
 }
 
 
 img.updates {
-    visibility: hidden;
+    float: left;
+    margin-left: 17rem;
+    margin-top: -4.5rem;
 }
 
 
 li.two {
-    float:right;
-    margin-right: 10.5rem;
-    margin-top: -2.7rem;
+    float: left;
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 100;  
+    margin-left: 18rem;
+    margin-top: -4.7rem;
+
 }
 
 
 img.walk {
     float: left;
-    margin-left: 13.1rem;
-    margin-top: -11px;
+    margin-left: 22.5rem;
+    margin-top: -5.7rem;
 }
 
 
 li.green {
     color: #00FFCF;
-    float: right; 
-    margin-right: 5rem;
-    margin-top: -2.7rem;
+    float: left; 
+    font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 100;  
+    margin-left: 26rem;
+    margin-top: -5rem;
 }
 
 
 img.sharparrow {
-    float: right;
-    margin-right: 2rem;
-    margin-top: .1rem;
+    float: left;
+    margin-left: 29rem;
+    margin-top: -4.3rem;
+    transform: rotate(90deg);
+}
 }
 
 
@@ -175,15 +190,6 @@ li.bottomrow {
     margin-bottom: -2rem;
     padding-top: 1rem;
     width: 375px;
-}
-
-
-.subtitles/*subheading*/ {
-    background: #2d2d2d;
-    margin-top: -.1rem;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-    width: 375px;;
 }
 
 
@@ -327,22 +333,6 @@ img.battery {
 
 .realtime {
     width: 100%;
-}
-
-
-.walk {
-    color: #FFA552;
-    float: right;
-    margin-right: -12rem;
-    margin-top: -2.1rem;
-}
-
-
-.sharparrow {
-    float:right;
-    margin-right: -7.5rem;
-    margin-top: -1.5rem;
-    transform: rotate(90deg);
 }
 
 
