@@ -69,9 +69,11 @@ h3.station {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 13px;
     font-weight: 100;
+    letter-spacing: 1px;
     margin-left: -12.5rem;
     margin-top: .8rem;
-    letter-spacing: 1px;
+    overflow-x:auto;
+
 }
 
 
