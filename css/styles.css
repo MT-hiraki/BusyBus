@@ -101,9 +101,9 @@ p.location {
 
 div.subtitles/*subheading*/ {
     background: #2d2d2d;
-    background-image: url(images/thin-Line.png);
+    background-image: url(images/middle.png);
     background-repeat: no-repeat;
-    background-position: 46% 65%;
+    background-position: 88% 67%;
     margin-top: -.1rem;
     padding-top: 3rem;
     padding-bottom: 4rem;
@@ -111,51 +111,27 @@ div.subtitles/*subheading*/ {
 }
 
 
-
-img.updates {
-    float: left;
-    margin-left: 1rem;
-    margin-top: 1rem;
-    padding-left: 4.7rem;
-}
-
-
 h4.two {
-    float: left;
+    float: right;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 13px;
     font-weight: 100; 
-    margin-left: .4rem;
+    margin-right: 12.3rem;
     margin-top: .8rem;
-}
-
-
-.walk {
-    float: left;
-    margin-left: 1rem;
-    margin-top: -.5rem;
 }
 
 
 h4.green {
     color: #00FFCF;
-    float: left; 
+    float: right; 
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
     font-style: oblique;
     font-weight: 100;
-    margin-left: 1rem;
-    margin-top: .5rem;
-}
-
-
-img.sharparrow {
-    float: right;
-    margin-right: 2.2rem;
-    margin-top: .9rem;
-    transform: rotate(90deg);
+    margin-right: -9.8rem;
+    margin-top: .6rem;
 }
 
 
