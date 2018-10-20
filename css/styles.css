@@ -70,7 +70,7 @@ h3.station {
     font-size: 13px;
     font-weight: 100;
     letter-spacing: 1px;
-    margin-left: -12.5rem;
+    margin-left: -12.6rem;
     margin-right: 0;
     margin-top: .8rem;
     padding-left: 0;
@@ -101,6 +101,9 @@ p.location {
 
 div.subtitles/*subheading*/ {
     background: #2d2d2d;
+    background-image: url(images/thin-Line.png);
+    background-repeat: no-repeat;
+    background-position: 46% 65%;
     margin-top: -.1rem;
     padding-top: 3rem;
     padding-bottom: 4rem;
@@ -108,17 +111,12 @@ div.subtitles/*subheading*/ {
 }
 
 
-img.thinline {
-    float: left;
-    margin-top: 1.5rem;
-}
-
 
 img.updates {
     float: left;
     margin-left: 1rem;
-    margin-top: .9rem;
-    padding-right: .2rem;
+    margin-top: 1rem;
+    padding-left: 4.7rem;
 }
 
 
@@ -135,7 +133,7 @@ h4.two {
 
 .walk {
     float: left;
-    margin-left: 1.2rem;
+    margin-left: 1rem;
     margin-top: -.5rem;
 }
 
@@ -148,14 +146,14 @@ h4.green {
     font-size: 15px;
     font-style: oblique;
     font-weight: 100;
-    margin-left: 1.2rem;
+    margin-left: 1rem;
     margin-top: .5rem;
 }
 
 
 img.sharparrow {
     float: right;
-    margin-right: 2rem;
+    margin-right: 2.2rem;
     margin-top: .9rem;
     transform: rotate(90deg);
 }
