@@ -44,8 +44,22 @@ h2.mainheading {
 
 
 div.schedule {
+    background-color: white;
+    background-image: url(images/line2.png);
+    background-position: 2.4rem;
+    background-repeat: repeat-y;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 32rem;
+    overflow: scroll;
+    width: 375px;
+}
+
+
+div.schedule::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 
@@ -309,23 +323,6 @@ img.battery {
 
 .realtime {
     width: 100%;
-}
-
-
-div.schedule {
-    background-color: white;
-    background-image: url(images/line2.png);
-    background-position: 2.4rem;
-    background-repeat: repeat-y;
-    padding-top: 32rem;
-    overflow: scroll;
-    width: 375px;
-}
-
-
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
 }
 
 
