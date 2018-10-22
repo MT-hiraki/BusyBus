@@ -23,8 +23,6 @@ body.iphoneX {
     font-style: normal;
     height: 812px;
     margin: 0 auto;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
     width: 375px;
 }
 
