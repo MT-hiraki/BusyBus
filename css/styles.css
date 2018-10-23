@@ -53,15 +53,15 @@ div.schedule {
     height: 812px;
     margin: 0px;
     padding-top: 32rem;
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
     width: 375px;
 }
 
 
-div.schedule::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-    -ms-overflow-style: -ms-autohiding-scrollbar;
+.schedule::-webkit-overflow-scrollbar {
+    height: 0px;
+    width: 0px;  
 }
 
 
