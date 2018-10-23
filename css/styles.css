@@ -53,15 +53,21 @@ div.schedule {
     height: 812px;
     margin: 0px;
     padding-top: 32rem;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
     width: 375px;
 }
 
 
-.schedule::-webkit-overflow-scrollbar {
-    height: 0px;
-    width: 0px;  
+div.schedule::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+div.schedule {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none; 
 }
 
 
