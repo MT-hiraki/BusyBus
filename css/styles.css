@@ -50,6 +50,7 @@ div.schedule {
     background-repeat: repeat-y;
     font-family: -apple-system, 'SF Pro Text', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    height: 812px;
     margin: 0px;
     padding-top: 32rem;
     overflow: scroll;
