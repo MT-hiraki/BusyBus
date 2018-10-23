@@ -55,6 +55,7 @@ div.schedule {
     padding-top: 32rem;
     overflow: scroll;
     overflow-x: hidden;
+    overflow-y: auto;
     width: 375px;
 }
 
